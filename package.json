@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dusan011/der-die-das/issues"
   },
-  "homepage": "https://github.com/dusan011/der-die-das#readme"
+  "homepage": "https://github.com/dusan011/der-die-das#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
