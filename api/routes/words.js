@@ -3,25 +3,25 @@ const router = express.Router();
 
 router.get("/", (req, res, next) => {
   res.status(200).json({
-    message: "Handling GET Request"
+    message: "Listing all words"
   });
 });
 
 router.post("/", (req, res, next) => {
   res.status(200).json({
-    message: "Handling POST Request"
+    message: "Adding word"
   });
 });
 
 router.delete("/", (req, res, next) => {
   res.status(200).json({
-    message: "Handling DELETE Request"
+    message: "Deleting a single word"
   });
 });
 
 router.patch("/", (req, res, next) => {
   res.status(200).json({
-    message: "Handling PATCH Request"
+    message: "Editing a single word"
   });
 });
 
